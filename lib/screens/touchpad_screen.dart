@@ -18,7 +18,7 @@ class _TouchpadScreenState extends State<TouchpadScreen> {
   int _maxPointersThisGesture = 0;
   bool _hasMovedThisGesture = false;
   bool _isDragging = false;
-  DateTime? _lastTapTime;
+  // DateTime? _lastTapTime;
   
   // Drag and Drop Hold Timer
   Timer? _dragTimer;
